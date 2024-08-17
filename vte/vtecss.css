@@ -1,0 +1,137 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #bcb0aa;
+}
+
+/*Start Font Formatting*/
+
+.ns1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 4em;
+}
+
+.s0 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+.s1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+.s2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.8em;
+}
+
+.s3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.6em;
+}
+
+.s4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.s5 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    font-family: Garamond, serif;
+    font-size: 1em;
+}
+
+/*End Font Formatting*/
+
+#body {
+    margin: 20px 20%;
+    padding: 5px;
+    border: 1px solid #999999;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+}
+
+#header {
+    padding: 5px;
+    margin: 5px;
+}
+
+#testarea {
+    padding: 10px 40px;
+    text-align: left;
+}
+
+.buttoncontainer {
+    padding: 10px;
+    margin: 20px 5px;
+    text-decoration: none;
+}
+
+.button {
+    border: 0;
+    background-color: #0190b0;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #00a5cb;
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+#resultarea {
+    padding: 40px;
+    text-align: center;
+}
+
+#wrongquestions {
+    margin: 5px;
+    color: #000000;
+}
+
+#result {
+    padding: 5px;
+}
+
+.fail {
+    border-top: 10px solid #e82529;
+    color: #e82529;
+    background-color: #f7a2a3;
+}
+
+.pass {
+    border-top: 10px solid #199819;
+    color: #199819;
+    background-color: #86eb86;
+}
+
+#wordgrade {
+    font-family: Garamond, serif;
+}
+
+#percentgrade {
+    padding: 5px;
+}
+
+.button a {
+    color: #ffffff;
+    text-decoration: none;
+}

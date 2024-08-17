@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="maincss.css" />
+    <link rel="icon" href="../images/icon.svg" />
+    <title>Quiz App</title>
+</head>
+<body>
+    <div id="login">
+        <form id="logform" name="logform" method="post">
+            <div class="inputdiv">
+                <label class="s4">Email:</label>
+                <input class="input" type="email" name="mail" placeholder="Gmail, Yahoo, Microsoft or Outlook"/>
+                <br />
+            </div>
+            <div class="inputdiv">
+                <label class="s4">Password:</label>
+                <input class="input " type="password" name="pass" placeholder="password123"/>
+                <br />
+            </div>
+            <p id="errortext"></p>
+            <div class="buttoncontainer">
+                <button type="button" class="button" onclick="login()">Log In</button>
+            </div>
+        </form>
+    </div>
+    <div id="body" class="hidden">
+        <div id="displaybar">
+            <p class="s2">Welcome, Dear <span id="usertitle"></span> User</p>
+        </div>
+        <div id="content">
+            <h1 class="s5">These are the exams available at this moment:</h1>
+            <div id="vtebox">
+                <p class="s4">VTE</p>
+                <p class="s5">The Varied Topics Examination is an Exam addressing many topic ranging from History to Physics.</p>
+                <div class="buttoncontainer">
+                    <div class="button">
+                        <a href="../vte/vte.html">Take Exam</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="mainjs.js"></script>
+</body>
+</html>

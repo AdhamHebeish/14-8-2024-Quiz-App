@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="vtecss.css" />
+    <link rel="icon" href="../images/icon.svg" />
+    <title>Quiz App | VT Examination</title>
+</head>
+<body>
+    <div id="body">
+        <div id="header">
+            <h1 class="s0">Varied Topics Examination</h1>
+            <p>
+                The VTE contains 10 questions about 5 topics.
+            </p>
+        </div>   
+        <form id="testarea" name="vte" method="post">
+            <p class="s4">Q1: The sine is the ratio of the _____ to the hypotenuse.</p>
+            <label><input type="radio" name="q1" value="a" />&nbsp;Tangent</label>
+            <br />
+            <label><input type="radio" name="q1" value="b" />&nbsp;Opposite</label>
+            <br />
+            <label><input type="radio" name="q1" value="c" />&nbsp;Cosine</label>
+            <br />
+            <label><input type="radio" name="q1" value="d" />&nbsp;Adjacent</label>
+            <br />
+
+            <p class="s4">Q2: The Himalaya mountains are a natural border between _____.</p>
+            <label><input type="radio" name="q2" value="a" />&nbsp;India and Pakistan</label>
+            <br />
+            <label><input type="radio" name="q2" value="b" />&nbsp;Afghanistan and China</label>
+            <br />
+            <label><input type="radio" name="q2" value="c" />&nbsp;China and India</label>
+            <br />
+            <label><input type="radio" name="q2" value="d" />&nbsp;Afghanistan and Pakistan</label>
+            <br />
+
+            <p class="s4">Q3: An object in motion will always _____ unless a force acts on it.</p>
+            <label><input type="radio" name="q3" value="a" />&nbsp;Stay in motion</label>
+            <br />
+            <label><input type="radio" name="q3" value="b" />&nbsp;Slow down and stop</label>
+            <br />
+            <label><input type="radio" name="q3" value="c" />&nbsp;Speed up</label>
+            <br />
+            <label><input type="radio" name="q3" value="d" />&nbsp;Heat up and combust</label>
+            <br />
+
+            <p class="s4">Q4: Onions induce tears due to _____.</p>
+            <label><input type="radio" name="q4" value="a" />&nbsp;Reacting with water to make acid</label>
+            <br />
+            <label><input type="radio" name="q4" value="b" />&nbsp;Releasing toxic gas</label>
+            <br />
+            <label><input type="radio" name="q4" value="c" />&nbsp;Containing antioxidants</label>
+            <br />
+            <label><input type="radio" name="q4" value="d" />&nbsp;All of the above</label>
+            <br />
+
+            <p class="s4">Q5: The square root of -1 is _____.</p>
+            <label><input type="radio" name="q5" value="a" />&nbsp;Euler's Number</label>
+            <br />
+            <label><input type="radio" name="q5" value="b" />&nbsp;Undefined</label>
+            <br />
+            <label><input type="radio" name="q5" value="c" />&nbsp;Zero</label>
+            <br />
+            <label><input type="radio" name="q5" value="d" />&nbsp;Imaginary</label>
+            <br />
+
+            <p class="s4">Q6: What year was the USSR dissolved?</p>
+            <label><input type="radio" name="q6" value="a" />&nbsp;2007</label>
+            <br />
+            <label><input type="radio" name="q6" value="b" />&nbsp;1973</label>
+            <br />
+            <label><input type="radio" name="q6" value="c" />&nbsp;1991</label>
+            <br />
+            <label><input type="radio" name="q6" value="d" />&nbsp;2001</label>
+            <br />
+
+            <p class="s4">Q7: Human red blood cells are created in the _____.</p>
+            <label><input type="radio" name="q7" value="a" />&nbsp;Spleen</label>
+            <br />
+            <label><input type="radio" name="q7" value="b" />&nbsp;Liver</label>
+            <br />
+            <label><input type="radio" name="q7" value="c" />&nbsp;Bone marrow</label>
+            <br />
+            <label><input type="radio" name="q7" value="d" />&nbsp;Pancreas</label>
+            <br />
+
+            <p class="s4">Q8: According to the Laws of Thermodynamics, which situation is immposible?</p>
+            <label><input type="radio" name="q8" value="a" />&nbsp;Creating energy from nothing</label>
+            <br />
+            <label><input type="radio" name="q8" value="b" />&nbsp;Destroying energy</label>
+            <br />
+            <label><input type="radio" name="q8" value="c" />&nbsp;Designing prepetual motion machines</label>
+            <br />
+            <label><input type="radio" name="q8" value="d" />&nbsp;All of the above</label>
+            <br />
+
+            <p class="s4">Q9: Climate change is caused due to what?</p>
+            <label><input type="radio" name="q9" value="a" />&nbsp;Deforstation</label>
+            <br />
+            <label><input type="radio" name="q9" value="b" />&nbsp;Burning of fossil fuels</label>
+            <br />
+            <label><input type="radio" name="q9" value="c" />&nbsp;Water Pollution</label>
+            <br />
+            <label><input type="radio" name="q9" value="d" />&nbsp;All of the above</label>
+            <br />
+
+            <p class="s4">Q10: Who defeated the Romans at Cannae?</p>
+            <label><input type="radio" name="q10" value="a" />&nbsp;Hannibal</label>
+            <br />
+            <label><input type="radio" name="q10" value="b" />&nbsp;Hamilcar Barca</label>
+            <br />
+            <label><input type="radio" name="q10" value="c" />&nbsp;Richard Lionheart</label>
+            <br />
+            <label><input type="radio" name="q10" value="d" />&nbsp;Scipio Africanus</label>
+            <br />
+
+            <div class="buttoncontainer">
+                <button type="button" class="button" onclick="finish()">Submit</button>
+            </div>
+        </form>
+        <div id="resultarea" class="hidden">
+            <div id="result">
+                <p id="wordgrade" class="s1"></p>
+                <h1 id="percentgrade" class="ns1"></h1>
+            </div>
+        </div>
+    </div>
+    <script src="vtejs.js"></script>
+</body>
+</html>
